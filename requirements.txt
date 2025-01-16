@@ -1,7 +1,7 @@
 tqdm
 rotary_embedding_torch
-transformers==4.31.0
-tokenizers
+transformers==4.45.1
+tokenizers>=0.20.0
 inflect
 progressbar
 einops==0.4.1
@@ -9,7 +9,7 @@ unidecode
 scipy
 librosa==0.9.1
 ffmpeg
-numpy
+numpy>=1.22,<2.1,!=1.22.2,!=1.22.1,!=1.22.0
 numba
 torchaudio
 threadpoolctl
